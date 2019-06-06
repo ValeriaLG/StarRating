@@ -136,7 +136,7 @@ class RatingSystem extends React.Component {
       <span>
         {this.state.array.map((el, index) =>
 
-                <img style={{maxWidth: '50px'}} src={pathForImages[el.on ? "true" : "false"]} onClick={() => this.onClick(index)}/>
+                <img className="rating" src={pathForImages[el.on ? "true" : "false"]} onClick={() => this.onClick(index)}/>
 
 
                 )}
